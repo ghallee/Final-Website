@@ -1,0 +1,93 @@
+#container div{
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+#container{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.tile{
+  /*float: left;*/
+  /*background-color: red;*/
+  border: 1px solid white;
+  /*z-index: -1*/
+  -webkit-transform: rotateY(-180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: all 1.5s ease;
+  background-size: 100%;
+}
+
+.phoenix{
+  background-image: url("http://th09.deviantart.net/fs70/PRE/f/2012/029/0/2/phoenix_by_sandara-d4o2ewx.jpg")
+}
+
+.acromantula{
+  background-image: url("http://3.bp.blogspot.com/-TweCVb1SXQk/T6KQVeI1KtI/AAAAAAAAABU/ZjLjtOKOrNI/s320/Acromntula.jpg");
+}
+
+.dobby{
+    background-image: url("http://fc04.deviantart.net/fs71/i/2013/234/3/f/2008__dobby_the_house_elf_by_queenofcostumes-d1cti99.jpg");
+}
+
+.myrtle{
+    background-image: url("http://img1.wikia.nocookie.net/__cb20090822190117/harrypotter/images/thumb/4/4e/Myrtle6.PNG/500px-Myrtle6.PNG");
+}
+
+.willow{
+    background-image: url("http://img2.wikia.nocookie.net/__cb20130217140119/harrypotter/images/2/26/Whomping_Willow_Pottermore.png");
+}
+
+.car{
+  background-image: url("http://vignette1.wikia.nocookie.net/harrypotter/images/d/dd/Ford-park.jpg/revision/latest?cb=20090426125128");
+}
+
+.basilisk{
+  background-image: url("http://fc09.deviantart.net/fs70/f/2013/143/a/5/snake_by_ketka_by_ketka-d6693jt.jpg")
+}
+
+.back{
+  /*background.image:*/
+  background-color: #72043E;
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: rotateY(0deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: all 1.5s ease;
+  background-image: url("http://fc06.deviantart.net/fs70/f/2014/162/6/a/pottermore___hogwarts_crest_by_chromomaniac-d7ly3tn.jpg");
+  background-size: 110%;
+}
+
+.flip .back {
+  -webkit-transform: rotateY(-180deg);
+  transition: all 1.5s ease;
+}
+
+.flip .tile {
+  -webkit-transform: rotateY(0deg);
+  transition: all 1.5s ease;
+}
+
+#GUI{
+  width: 302px;
+  height: 150px;
+  border: 3px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: block;
+}
+
+a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration:none
+}
+
+a:hover {
+    color: red
+}

@@ -1,0 +1,39 @@
+ody {
+  font-family: 'Roboto', sans-serif;
+}
+
+#display {
+  font-size: 40px;
+  margin: 5px;
+  height: 60px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: #2196F3;
+  color: #FFF;
+  padding: 10px;
+  margin: 5px;
+  min-height: 18px;
+  min-width: 66px;
+  text-align: center;
+  vertical-align: center;
+  display: inline-block;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.button:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button:hover:not(.opp) {
+  background-color: #39A1F4;
+}
+
+.opp {
+  background-color: #E040FB;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html/>
+<head>
+  <link rel="stylesheet" type="text/css" href="tilegame.css">
+  <link href='http://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id ="container">
+    <div id ="column1" class ="column" >
+      <div class="beadedBag">
+        <div class ="back backMirror"></div>
+        <div class ="tile mirror" style="visibility: display"></div>
+      </div>
+      <div class="beadedBag">
+        <div class ="back backHat"></div>
+        <div class ="tile hat"></div>
+      </div>
+      <div class="beadedBag">
+        <div class ="back backBaby"></div>
+        <div class ="tile baby"></div>
+      </div>
+    </div>
+    <div id ="column2" class ="column">
+      <div class="beadedBag">
+        <div class="back backFluffy"></div>
+        <div class ="tile fluffy"></div>
+      </div>
+      <div class="beadedBag">
+        <div class="back backBaby"></div>
+        <div class ="tile baby"></div>
+      </div>
+      <div class="beadedBag">
+        <div class="back backHat"></div>
+        <div class ="tile hat"></div>
+      </div>
+
+    </div>
+    <div id ="column3" class ="column">
+      <div class="beadedBag">
+        <div class="back backStone"></div>
+        <div class ="tile stone"></div>
+      </div>
+      <div class="beadedBag">
+        <div class="back backMirror"></div>
+        <div class ="tile mirror"></div>
+      </div>
+      <div class="beadedBag">
+        <div class="back backFluffy"></div>
+        <div class ="tile fluffy"></div>
+      </div>
+    </div></div>
+    <div id = "GUI">
+      <p id = "welcome">Welcome to Harry Potter Tile Match! You are on Book One</p>
+      <p>You have <span id="moves">8</span> turns to match the tiles and move onto the next book</p>
+      <p>Nicholas Flamel has the only Philospher's Stone so there is no match for it!</p>
+      <p>Press <a onclick=randomGame() href="#">Here</a> to randomize board</p>
+    </div>
+    <script src="http://cdn.smtcs.rocks/jq/2.js"></script>
+    <script src="http://jsconsole.com/remote.js?E987F1D6-0E08-4C3D-839E-4F4B7B40C666"></script>
+    <script src="tilegame.js"></script>
+  </body>

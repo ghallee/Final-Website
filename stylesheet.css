@@ -1,0 +1,12 @@
+p{
+  font-family: Jura
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-image: url('bg.png');
+  margin: 0;
+}

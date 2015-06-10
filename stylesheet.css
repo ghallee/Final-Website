@@ -89,3 +89,20 @@ iframe{
 button{
   background-color: #F6F6F6;
 }
+
+.col-md-4 img{
+  width: 100%
+}
+
+.col-md-4 iframe{
+  height: 50%;
+  width:
+}
+
+td{
+  color: #F6F6F6
+}
+
+td img{
+  width: 20%;
+}

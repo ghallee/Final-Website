@@ -23,6 +23,12 @@ h1{
 .col-md-6 h2{
   color: #F6F6F6
 }
+.col-md-4 p{
+  color: #F6F6F6
+}
+.col-md-4 h2{
+  color: #F6F6F6
+}
 .img-circle{
   height: 100%;
 }
@@ -54,7 +60,7 @@ iframe{
 }
 ::-webkit-scrollbar {
     display: none;
-}*/
+}
 ::selection{
   background-color:#DE1B1B
 }
